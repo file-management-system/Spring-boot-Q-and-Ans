@@ -1,0 +1,35 @@
+1)What is the use of @Controller in spring boot?
+ans:
+
+i)@Controller annotation indicates that the annotated class is a controller. 
+ii)It is a specialization of @Component and is autodetected through classpath scanning.
+iii)It is typically used in combination with annotated handler methods based on the @RequestMapping annotation.
+
+2)What is the use of @RequestMapping in spring boot?
+ans:-
+ i)@RequestMapping  annotation maps HTTP requests to handle methods of MVC and REST controllers.
+
+
+
+3)What is the use of @SpringBootApplication in spring boot?
+ans-
+i)The @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration and @ComponentScan with their default attributes.
+ii)One can use it as a alternative of using these 3 annotations.
+
+exclude: Exclude the list of classes from the auto configuration.
+
+excludeNames: Exclude the list of fully qualified class names from the auto configuration. This parameter added since spring boot 1.3.0.
+
+scanBasePackageClasses: Provide the list of classes that has to be applied for the @ComponentScan.
+
+scanBasePackages Provide the list of packages that has to be applied for the @ComponentScan. 
+This parameter added since spring boot 1.3.0.
+
+4)we used which annotations in todays code?
+ans:
+We used @SpringBootMavenExample and @spring-boot-restful-web-services-example  annotations in today's code.
+
+
+5) why this prefix and suffix used in spring boot?
+ans:-#doubt.
+
